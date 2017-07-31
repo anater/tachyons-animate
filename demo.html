@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-    <title>Tachyons Animate Module Demo</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
-    <link rel="stylesheet" href="css/tachyons-animate.css">
-    <body class="measure center sans-serif black-80">
-        <section>
-            <h1>Fade</h1>
-            <div class="w3 h3 bg-red fade a3 d-2">
+    <head>
+        <title>Tachyons Animate Module Demo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <link rel="stylesheet" href="css/tachyons-animate.css">
+    </head>
+
+    <body>
+        <main class="measure center tc sans-serif black-80 absolute absolute--fill">
+            <div class="flex flex-column justify-center items-center h-100">
+                <header>
+                    <h1 class="animated fadeInUp d2 f2 fw3">
+                        <code class="db black-40">'tachyons-animate'</code>
+                    </h1>
+                    <h2 class="animated zoomIn d4">
+                        Designed for choreographing <span class="nowrap">CSS animations</span>
+                    </h2>
+                    <div class="animated bounceIn d-1 d-1 mt4">
+                        <a href="/" class="dib link bw1 b--solid b--dark-blue dark-blue fw9 pa3 br3 hover-white hover-bg-dark-blue">
+                            View on Github
+                        </a>
+                    </div>
+                </header>
+                <footer class="animated zoomInDown d-2 absolute left-0 bottom-2 w-100">
+                    Made by <a href="http://andrewnater.com" class="link fw9 dark-blue" target="_blank">Andrew Nater</a>
+                </footer>
             </div>
-            <div class="mt3 w3 h3 bg-blue hover-bg-light-blue fade reverse a3 d-2">
-            </div>
-        </section>
-        <section>
-            <h1>Fade Left</h1>
-            <div class="w3 h3 bg-red fade-left a3 d-2">
-            </div>
-            <div class="mt3 w3 h3 bg-blue fade-left reverse a3 d-2">
-            </div>
-        </section>
+        </main>
     </body>
 </html>
