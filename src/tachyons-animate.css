@@ -7,7 +7,8 @@
     ANIMATE
 
     Base:
-        a = animate
+        a = animation duration
+        d = animation delay
 
     Modifiers
         1 = 1st step in width scale
@@ -15,7 +16,6 @@
         3 = 3rd step in width scale
         4 = 4th step in width scale
         5 = 5th step in width scale
-        6 = 6th step in width scale
 
         -1 = literal value 1s
         -2 = literal value 2s
@@ -27,6 +27,99 @@
         -l  = large
 
 */
+
+
+/* Animation Duration */
+
+.a1 {
+    animation-duration: 100ms;
+}
+
+.a2 {
+    animation-duration: 300ms;
+}
+
+.a3 {
+    animation-duration: 500ms;
+}
+
+.a4 {
+    animation-duration: 700ms;
+}
+
+.a5 {
+    animation-duration: 900ms;
+}
+
+
+.a-1 {
+    animation-duration: 1s;
+}
+
+.a-2 {
+    animation-duration: 2s;
+}
+
+.a-3 {
+    animation-duration: 3s;
+}
+
+
+/* Animation Delay */
+
+.d1 {
+    animation-delay: 100ms;
+}
+
+.d2 {
+    animation-delay: 300ms;
+}
+
+.d3 {
+    animation-delay: 500ms;
+}
+
+.d4 {
+    animation-delay: 700ms;
+}
+
+.d5 {
+    animation-delay: 900ms;
+}
+
+.d-1 {
+    animation-delay: 1s;
+}
+
+.d-2 {
+    animation-delay: 2s;
+}
+
+.d-3 {
+    animation-delay: 3s;
+}
+
+
+/* Animation Play State */
+
+.pause {
+    animation-play-state: paused;
+}
+
+
+/* Animation Iteration */
+
+.infinite {
+    animation-iteration-count: infinite;
+}
+
+.double {
+    animation-iteration-count: 2;
+}
+
+.triple {
+    animation-iteration-count: 3;
+}
 
 
 /* Animation Direction */
@@ -43,47 +136,16 @@
     animation-direction: alternate-reverse;
 }
 
+/* Animation Fill Mode */
 
-/* Animation Delay */
-
-.delay-1 {
-    animation-delay: 1s;
+.forwards {
+    animation-fill-mode: forwards;
 }
 
-.delay-2 {
-    animation-delay: 2s;
+.backwards {
+    animation-fill-mode: backwards;
 }
 
-.delay-3 {
-    animation-delay: 3s;
-}
-
-
-/* Animation Duration */
-
-.a1{
-    animation-duration: 125ms;
-}
-
-.a2{
-    animation-duration: 250ms;
-}
-
-.a3 {
-    animation-duration: 500ms;
-}
-
-.a4 {
-    animation-duration: 1000ms;
-}
-
-.a5 {
-    animation-duration: 2000ms;
-}
-
-.a6 {
-    animation-duration: 3000ms;
-}
 
 @media (--breakpoint-not-small) {
 
