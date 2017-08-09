@@ -11,11 +11,12 @@
         d = animation delay
 
     Modifiers
-        1 = 1st step in width scale
-        2 = 2nd step in width scale
-        3 = 3rd step in width scale
-        4 = 4th step in width scale
-        5 = 5th step in width scale
+        1 = 1st step (150ms)
+    	2 = 2nd step (300ms)
+    	3 = 3rd step (450ms)
+    	4 = 4th step (600ms)
+    	5 = 5th step (750ms)
+    	6 = 6th step (900ms)
 
         -1 = literal value 1s
         -2 = literal value 2s
