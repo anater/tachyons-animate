@@ -6,6 +6,11 @@ I made this project to help me get more out of my animations. It's inspired by t
 - animation-iteration-count : `.infinite`, `.double`, `.triple`
 - animation-direction: `.reverse`, `.alternate`, `.alternate-reverse`
 
+## Getting Started
+
+- Clone the repo: `git clone https://github.com/anater/tachyons-animate`
+- Install with npm: `npm i tachyons-animate`
+
 ## Documentation
 Let's say you use [Animate.css](https://daneden.github.io/animate.css/) (not required) for your animations but you want to stagger a few animations with a delay, or you want to tweak the duration, or run it in reverse. `tachyons-animate` helps you with this.
 
@@ -61,4 +66,3 @@ If the linear timing function is too boring for you, we've included additional [
 
 ## TODO:
 - Host on CDN
-- Make public NPM package
